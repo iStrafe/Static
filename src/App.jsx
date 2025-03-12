@@ -10,6 +10,7 @@ import Contact from './views/Contact.jsx';
 import New from './views/New.jsx';
 import Register from './views/Register.jsx'
 import Login from './views/Login.jsx';
+import Profile from './views/Profile.jsx';
 
 import axios from 'axios';
 import { useEffect, useState } from 'react';
@@ -72,6 +73,7 @@ const App = () => {
                 <Route path="/Service" element={<Service/>}/>
                 <Route path="/Contact" element={<Contact/>}/>
                 <Route path="/New" element={<New/>}/>
+                <Route path="/Profile" element={<Profile/>}/>
                 <Route path="/Register" element={<Register/>}/>
                 <Route path="/Login" element={<Login/>}/>
               
