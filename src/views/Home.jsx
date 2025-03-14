@@ -5,8 +5,11 @@ import Hero from '../components/Hero';
 import About from '../views/About.jsx';
 const Home = () => {
 return (
-    <div className="max-w-screen-2xl">
+    <div className="max-w-screen-4xl">
                 <Hero/>
+                <div className="grid grid-cols-6 p-20 bg-gradient-to-t from-slate-950 to-indigo-950">
+                
+                </div>
             {/* <div className="grid grid-cols-1 sm:grid-cols-3 p-4 gap-2">
                     <div className="bg-gradient-to-t from-cyan-300 to-indigo-500 rounded-lg shadow-xl min-h-10 col-span-3">
                             <h1 className="font-sans text-center text-2xl text-black font-bold"> TITLE </h1>

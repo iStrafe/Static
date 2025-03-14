@@ -36,10 +36,10 @@ const About = () => {
                                                                 <p className="text-gray-500 dark:text-gray-400">C#</p>
                                                         </div>
                                                         <div className="col-span-1">
-                                                                <p className="text-gray-500 dark:text-gray-400">PHP</p>
+                                                                <p className="text-gray-500 dark:text-gray-400">Laravel</p>
                                                         </div>
                                                         <div className="col-span-1">
-                                                                <p className="text-gray-500 dark:text-gray-400">Java</p>
+                                                                <p className="text-gray-500 dark:text-gray-400">Tailwind</p>
                                                         </div>
                                                         <div className="col-span-1">
                                                                 <p className="text-gray-500 dark:text-gray-400">SQL</p>
@@ -84,13 +84,18 @@ const About = () => {
                                                 <h1 className="text-2xl font-bold">WEB DEVELOPER</h1>
                                                 <div class="bg-cyan-600 w-full h-[2px] mb-4"></div>
                                                 
-                                                <p className="text-gray-500 dark:text-gray-400 p-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                                <p className="text-gray-500 dark:text-gray-400 p-5">Dedicated IT student specializing in web and application development, passionate about creating IT
+                                                        solutions. I 'am adaptable and eager to embrace continuous learning of evolving technologies to stay
+                                                        at the forefront of development. I strongly appreciate teamwork and thrive in collaborative
+                                                        environments, contributing to the success of projects through dedication and a growth-oriented
+                                                        mindset.
+                                                </p>
 
-                                                <h1 className="text-2xl font-bold">Lorem Ipsum</h1>
+                                                <h1 className="text-2xl font-bold">Description</h1>
                                                 <div class="bg-cyan-600 w-full h-[2px] mb-4"></div>
                                                 <p className="text-gray-500 dark:text-gray-400 p-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
 
-                                                <h1 className="text-2xl font-bold">Lorem Ipsum</h1>
+                                                <h1 className="text-2xl font-bold">Experience</h1>
                                                 <div class="bg-cyan-600 w-full h-[2px] mb-4"></div>
                                                 <p className="text-gray-500 dark:text-gray-400 p-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
                                         </div>
