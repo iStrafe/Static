@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 text-white ">
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
           <img src={logo} alt="Logo" className="w-8 h-8" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white hover:text-red-300">Reginald Unisa</span>
+          <span onClick={() => navigate('/profile')}className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white hover:text-red-300">Reginald Unisa</span>
         </a>
 
         <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
