@@ -5,7 +5,7 @@ import Hero from '../components/Hero';
 import About from '../views/About.jsx';
 const Home = () => {
 return (
-    <div className="max-w-screen-4xl">
+    <div className="">
                 <Hero/>
                 <div className="grid grid-cols-6 p-20 bg-gradient-to-t from-slate-950 to-indigo-950">
                 
