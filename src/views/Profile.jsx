@@ -4,6 +4,45 @@ import axios from 'axios';
 
 const Profile = () => {
   const navigate = useNavigate();
+
+  const [formData,setFormData] = useState({
+    firstName: '',
+    });
+
+  const handleChange = (e) => {
+    const {name, value} = e.target;
+    setFormData({...formData,[name]:value});
+  };
+
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+
+      if(!formData.firstName){
+        alert('please enter some credentials')
+        return;
+      }
+    
+     const token = sessionStorage.getItem('authToken');
+     axios.put('https://localhost:7056/api/user',{
+          firstName: formData.firstName,
+        },
+        {
+          headers: { Authorization: `Bearer ${token}` }
+        }
+    )
+
+      .then(response => {
+        console.log('Profile updated successfully:', response.data);
+          alert('Profile updated successfully');
+      })
+     .catch(error => {
+          console.error('Error updating profile:', error.response?.data || error);
+          alert('Failed to update profile.');
+      });
+     
+  };
+
+
   const [userData, setUserData] = useState({
     firstName: '',
     middleName: '',
@@ -65,10 +104,19 @@ const Profile = () => {
                 )}
 
                 <div className="col-span-3 bg-gray-800 text-white p-4 rounded-3xl shadow-md">
+
                   <h1 className="font-bold text-3xl gap p-5">
                   <span className="text-gray-400">EDIT</span> <span className="text-gray-300">PROFILE</span></h1>
+                  <div class="bg-gray-700 w-full h-[5px] mb-4"></div>
+
                   <div className="grid grid-cols-3">
-                    
+                    <form onSubmit={handleSubmit}>
+                        <div className="col-span-3">
+                            <input className="text-black" name="firstName" type="text" value={formData.firstName} onChange={handleChange} placeholder="firstName"/>
+                        </div>
+                       
+                        <button type="submit">Save</button>
+                    </form>
                   </div>
                 </div>
           </div>
