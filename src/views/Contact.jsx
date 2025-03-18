@@ -17,10 +17,11 @@ const Contact = () => {
 
                 <h1 className="col-span-4 mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">Contact Me</h1>
                 
-                <input className="col-span-4 sm:col-span-2 md:col-span-2 rounded-lg h-8" type="text" placeholder="First Name" />
-                <input className="col-span-4 sm:col-span-2 md:col-span-2 rounded-lg h-8" type="text" placeholder="Last Name" />
-                <input className="col-span-4 sm:col-span-3 rounded-lg h-8" type="email" placeholder="Email" />
-                <textarea className="col-span-4 sm:col-span-2 md:col-span-4 row-span-10 rounded-xl" placeholder="Description"></textarea>
+                <input className="col-span-4 sm:col-span-2 md:col-span-2 rounded-lg h-8 p-4" type="text" placeholder="First Name" />
+                <input className="col-span-4 sm:col-span-2 md:col-span-2 rounded-lg h-8 p-4" type="text" placeholder="Last Name" />
+                <input className="col-span-4 sm:col-span-2 rounded-lg h-8 p-4" type="email" placeholder="Email" />
+                <input className="col-span-4 sm:col-span-2 rounded-lg h-8 p-4" type="email" placeholder="Mobile Number" />
+                <textarea className="col-span-4 sm:col-span-2 md:col-span-4 row-span-10 rounded-xl p-4" placeholder="Description"></textarea>
 
                 <a href="#" className="col-span-4 md:col-span-3 inline-flex items-center text-green-400 hover:text-green-300 bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
                     Submit
