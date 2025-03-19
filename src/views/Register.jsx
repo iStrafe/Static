@@ -51,7 +51,7 @@ const Register = () => {
             formDataToSend.append('Image', formData.Image);
           }
 
-          try {
+           try {
             const { data } = await axios.post('https://localhost:7056/api/User', formDataToSend, {
               headers: {
                 'Content-Type': 'multipart/form-data',
